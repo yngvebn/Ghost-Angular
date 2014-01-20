@@ -1,0 +1,22 @@
+{
+    "name"        : "ghost-angular",
+    "version"     : "0.0.1",
+    "description" : "Just an inspired blogging platform on Angular.",
+    "author"      : "Yngve",
+    "main"         : "server.js",
+    "dependencies": {
+        "express"    : "~3.4.4",
+        "mongoose"   : "~3.6.2",
+        "moment": "2.4.0",
+        "node-polyglot": "0.3.0",
+        "node-uuid": "1.4.1",
+        "nodemailer": "0.5.13",
+        "rss": "0.2.1",
+        "semver": "2.2.1",
+        "showdown": "0.3.1",
+        "underscore": "1.5.2",
+        "unidecode": "0.1.3",
+        "validator": "1.4.0",
+        "ejs": "~0.8.5"
+    }
+}
