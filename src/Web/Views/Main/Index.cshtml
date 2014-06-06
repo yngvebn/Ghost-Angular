@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Blog</title>
+    @Styles.Render("~/css/lib")
+</head>
+<body ng-app="app">
+
+    <div ng-include="'/app/navbar/navbar.html'" ng-controller="Navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    </div>
+
+    <div class="container" ng-view>     
+    </div>
+
+    <div class="container">
+        <hr>
+
+        <footer>
+            <p>&copy; Company 2014</p>
+        </footer>
+    </div> <!-- /container -->
+    @Scripts.Render("~/js/lib")
+    @Scripts.Render("~/js/app")
+</body>
+</html>
