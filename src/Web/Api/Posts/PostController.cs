@@ -19,5 +19,10 @@ namespace Web.Api.Posts
         {
             return Ok();
         }
+
+        public IHttpActionResult Publish(int id)
+        {
+            return Ok();
+        }
     }
 }
