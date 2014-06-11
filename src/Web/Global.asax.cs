@@ -13,6 +13,7 @@ namespace Web
     {
         protected void Application_Start()
         {
+            CastleConfig.Bootstrap(GlobalConfiguration.Configuration);
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
